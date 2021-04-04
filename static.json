@@ -1,4 +1,6 @@
 {
   "root": "public/",
-  "clean_urls": true
+  "clean_urls": true,
+  "canonical_host": "reinkober.it",
+  "https_only": true
 }
