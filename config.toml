@@ -72,10 +72,6 @@ copyright = "&copy;2021 Dennis Reinkober"
       heading = "Repositories"
 
       [[params.links.list2.link]]
-        text = "reinkober-it.de"
-        url = "https://github.com/RayNCooper/hugo-split-theme"
-
-      [[params.links.list2.link]]
         text = "GitHub"
         url = "https://github.com/RayNCooper"
 
