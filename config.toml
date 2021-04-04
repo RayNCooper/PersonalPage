@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.com"
+baseURL = "https://reinkober.it"
 defaultContentLanguage = "de"
 languageCode = "de-DE"
 theme = "hugo-split-theme"
