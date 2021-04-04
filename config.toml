@@ -1,0 +1,98 @@
+# Site settings
+baseURL = "https://example.com"
+defaultContentLanguage = "de"
+languageCode = "de-DE"
+theme = "hugo-split-theme"
+enableEmoji = true
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2021 Dennis Reinkober"
+
+[languages]
+  [languages.de]
+    contentDir = "content/de"
+    title = "Dennis Reinkober - Entwickler, Open Source Enthusiast & Unternehmer"
+    languageName = "Deutsch"
+    weight = 2
+    [languages.de.params]
+      emojiCode = ":de:"
+  [languages.en]
+    contentDir = "content/en"
+    title = "Dennis Reinkober - Developer, Open Source Enthusiast & Entrepreneur"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      emojiCode = ":gb:"
+
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Dennis Reinkober"
+  description = ""
+  shareImage = "images/social.jpg"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/me.jpg"
+      position = "center end"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Contact"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:kontakt@reinkober-it.de"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Repositories"
+
+      [[params.links.list2.link]]
+        text = "reinkober-it.de"
+        url = "https://github.com/RayNCooper/hugo-split-theme"
+
+      [[params.links.list2.link]]
+        text = "GitHub"
+        url = "https://github.com/RayNCooper"
+
+      [[params.links.list2.link]]
+        text = "Gitea"
+        url = "https://git.reinkober-it.de/crunch"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/dennis-reinkober-1443181b4/"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
