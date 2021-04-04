@@ -64,7 +64,7 @@ copyright = "&copy;2021 Dennis Reinkober"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "mailto:kontakt@reinkober-it.de"
+        url = "mailto:dennis@reinkober.it"
 
   # Links List #2
   [[params.links]]
