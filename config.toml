@@ -77,7 +77,7 @@ copyright = "&copy;2021 Dennis Reinkober"
 
       [[params.links.list2.link]]
         text = "Gitea"
-        url = "https://git.reinkober.it"
+        url = "https://git.reinkober.it/crunch"
 
   # Links List #3
   [[params.links]]
